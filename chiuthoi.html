@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template Structure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Container bao bọc toàn bộ khung trang web -->
+    <div class="site-container">
+
+        <!-- 1. HEADER (Tiêu đề trang) -->
+        <header class="site-header">
+            <h1>Mẫu Cấu Trúc Website Template</h1>
+            <p>Giải pháp thiết kế giao diện chuẩn HTML5 & CSS</p>
+        </header>
+
+        <!-- 2. NAVIGATION MENU (Thanh điều hướng >= 4 mục) -->
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. CONTENT SECTION (Khu vực nội dung chính) -->
+        <div class="main-content-wrapper">
+            
+            <!-- Nội dung bài viết chính -->
+            <main class="primary-content">
+                <article class="post">
+                    <h2>Giới thiệu cấu trúc trang web</h2>
+                    <p>Một trang web tiêu chuẩn thường được chia thành các khu vực rõ ràng để giúp người dùng dễ thao tác và tìm kiếm thông tin. Việc phân chia này cũng giúp lập trình viên quản lý mã nguồn hiệu quả hơn.</p>
+                    
+                    <!-- Hình ảnh minh họa -->
+                    <div class="image-box">
+                        <img src="https://picsum.photos/600/250" alt="Hình ảnh minh họa bố cục trang web">
+                    </div>
+
+                    <p>Khung bố cục này sử dụng CSS Flexbox để đảm bảo các thành phần hiển thị cân đối và thu hút trên nhiều thiết bị khác nhau.</p>
+                </article>
+            </main>
+
+            <!-- Cột bên phụ (Sidebar) -->
+            <aside class="sidebar">
+                <h3>Danh mục phụ</h3>
+                <ul>
+                    <li><a href="#">Tin nổi bật</a></li>
+                    <li><a href="#">Sản phẩm mới</a></li>
+                    <li><a href="#">Hướng dẫn sử dụng</a></li>
+                </ul>
+            </aside>
+
+        </div>
+
+        <!-- 4. FOOTER (Thông tin bản quyền) -->
+        <footer class="site-footer">
+            <p>&copy; 2026 Website Template Practice. Bản quyền thuộc về CodeGym.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

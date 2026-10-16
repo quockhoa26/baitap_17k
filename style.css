@@ -1,0 +1,136 @@
+/* Reset CSS cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Khung chứa toàn bộ trang web */
+.site-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 1. HEADER */
+.site-header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.site-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.site-header p {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+/* 2. NAVIGATION MENU */
+.site-nav {
+    background-color: #34495e;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.site-nav ul li a:hover {
+    background-color: #1abc9c;
+}
+
+/* 3. CONTENT SECTION */
+.main-content-wrapper {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Bài viết chính (Main Content) */
+.primary-content {
+    flex: 7; /* Chiếm 70% không gian */
+}
+
+.primary-content h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.primary-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+/* Cột bên phụ (Sidebar) */
+.sidebar {
+    flex: 3; /* Chiếm 30% không gian */
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+}
+
+.sidebar h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 4. FOOTER */
+.site-footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
